@@ -1,0 +1,12 @@
+<query id="checkName" action="select">
+	<tables>
+		<table name="gmscore_board" />
+	</tables>
+	<columns>
+		<column name="score" />
+	</columns>
+	<conditions>
+		<condition operation="equal" column="game_token" var="game_token" />
+		<condition operation="equal" column="usr_srl" var="usr_srl" pipe="and" />
+	</conditions>
+</query>

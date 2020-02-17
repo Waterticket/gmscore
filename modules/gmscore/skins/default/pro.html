@@ -1,0 +1,49 @@
+<!--#include("_head.html")-->
+<load target="css/gmscore.css" />
+<load target="css/bootstrap.min.css" />
+<div id=navi>
+    <div style="float:left"><p>Professional Version</p></div>
+    <!--@if(!$pro)-->
+    <div style="float:right">
+        <button type="button" class="btn btn-success btn-lg" onClick="location.href='gmscore?act=dispGMscoreProConfirm'">
+            업그레이드
+        </button>
+    </div>
+	<!--@else-->
+	<div style="float:right">
+        <button type="button" class="btn btn-danger btn-lg" onClick="#">
+            프로입니다!
+        </button>
+    </div>
+    <!--@end-->
+    <br>
+    <div class=description>프로페셔널 버전으로 업그레이드하세요. 5000포인트로 더욱 강화된 프로버전을 구매하실 수 있습니다.</div>
+</div>
+<br>
+<br>
+<div>
+<div class = "pro_list">
+    <div class="list_caption">조이스코어 버전 특징</div>
+    <div class="list_free">Free</div>
+    <div class="list_blank"></div>
+    <div class="list_pro">Pro</div>
+</div>
+<div class = "pro_list">
+    <div class="list_caption">배너 밑 광고 표시</div>
+    <div class="list_free">표시함</div>
+    <div class="list_blank"></div>
+    <div class="list_pro">광고제거</div>
+</div>
+<div class = "pro_list">
+    <div class="list_caption">생성가능 스코어보드 수</div>
+    <div class="list_free">3</div>
+    <div class="list_blank"></div>
+    <div class="list_pro">100</div>
+</div>
+<div class = "pro_list">
+    <div class="list_caption">스코어보드에 저장가능한 랭킹 수</div>
+    <div class="list_free">50</div>
+    <div class="list_blank"></div>
+    <div class="list_pro">제한 없음</div>
+</div>
+</div>

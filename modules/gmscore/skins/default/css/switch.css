@@ -1,0 +1,57 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px; 
+};
+
+/*스위치바탕 ie에서 테두리생김방지*/
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ccc;
+  transition:.4s;   /*4초동안전환효과*/
+}
+
+/*스위치버튼 안쪽에 동그란모양*/
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background: white;
+  transition: .4s;   /*4초동안전환효과*/
+}
+
+/*체크된(on된)스위치바탕*/
+input:checked + .slider {
+  background: #2196F3;
+}
+
+/*스위치버튼을 클릭하면 버튼주위에 글로우효과*/
+input:focus + .slider {
+  box-shadow: 0 0 3px #2196F3;
+}
+
+/*스위치버튼을 클릭하면 우측으로 26px이동*/
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/*Rounded sliders*/
+.slider.round {
+  border-radius: 34px;
+}
+
+/*스위치버튼 안쪽에 동그란모양*/
+.slider.round:before {
+  border-radius: 50%;
+}

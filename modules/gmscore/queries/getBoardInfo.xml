@@ -1,0 +1,18 @@
+<query id="getBoardInfo" action="select">
+    <tables>
+        <table name="gmscore" />
+    </tables>
+    <columns>
+        <column name="member_srl"/>
+        <column name="game_name"/>
+        <column name="game_des"/>
+        <column name="game_token"/>
+		<column name="game_secret"/>
+        <column name="sort_type"/>
+        <column name="background_color"/>
+    </columns>
+    <conditions>
+		<condition operation="equal" column="game_token" var="game_token"/>
+        <condition operation="equal" column="game_name" var="game_name" pipe="or"/>
+    </conditions>
+</query>

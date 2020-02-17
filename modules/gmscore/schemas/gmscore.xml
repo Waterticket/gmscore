@@ -1,0 +1,12 @@
+<table name="gmscore">
+	<column name="gmscore_srl" type="number" size="11" notnull="notnull" primary_key="primary_key" /> 
+	<column name="regdate" type="varchar" size="14" notnull="notnull" primary_key="primary_key" />
+	<column name="member_srl" type="number" size="11" notnull="notnull"  primary_key="primary_key" />
+    <column name="game_name" type="varchar" size="100" notnull="notnull" />
+    <column name="game_des" type="varchar" size="200" notnull="notnull" />
+	<column name="game_token" type="varchar" size="250" notnull="notnull" />
+	<column name="game_secret" type="varchar" size="250" notnull="notnull" />
+	<column name="hash" type="char" size="1" notnull="notnull" />
+	<column name="sort_type" type="varchar" size="4" notnull="notnull" />
+	<column name="background_color" type="varchar" size="20" notnull="notnull" />
+</table>

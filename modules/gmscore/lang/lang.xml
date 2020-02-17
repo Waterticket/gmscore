@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang>
+	<item name = "ckscore_name">
+		<value xml:lang="ko"><![CDATA[쿠키 스코어보드]]></value>
+        <value xml:lang="en"><![CDATA[Cookiee Scoreboard]]></value>
+	</item>
+	<item name = "ckscore_desc">
+		<value xml:lang="ko"><![CDATA[무료로 자신만의 스코어 보드를 제작해 보세요!]]></value>
+        <value xml:lang="en"><![CDATA[Make your own ScoreBoard for free!]]></value>
+	</item>
+	<item name = "gmscore_module">
+		<value xml:lang="ko"><![CDATA[조이메이커 스코어보드 호스팅]]></value>
+        <value xml:lang="en"><![CDATA[Joymaker ScoreBoard Hosting]]></value>
+	</item>
+    <item name = "game_title">
+		<value xml:lang="ko"><![CDATA[게임 타이틀]]></value>
+        <value xml:lang="en"><![CDATA[Game Title]]></value>
+	</item>
+    <item name = "game_des">
+		<value xml:lang="ko"><![CDATA[게임 설명]]></value>
+        <value xml:lang="en"><![CDATA[Game Description]]></value>
+	</item>
+    <item name = "not_use">
+		<value xml:lang="ko"><![CDATA[사용안함]]></value>
+        <value xml:lang="en"><![CDATA[Don't Use]]></value>
+	</item>
+    <item name = "descend">
+		<value xml:lang="ko"><![CDATA[내림차순 (큰 순서)]]></value>
+        <value xml:lang="en"><![CDATA[descend]]></value>
+	</item>
+    <item name = "ascend">
+		<value xml:lang="ko"><![CDATA[오름차순 (작은 순서)]]></value>
+        <value xml:lang="en"><![CDATA[ascend]]></value>
+	</item>
+    <item name = "background_color">
+		<value xml:lang="ko"><![CDATA[배경색상]]></value>
+        <value xml:lang="en"><![CDATA[Background Color]]></value>
+	</item>
+    <item name = "msg_not_ava">
+		<value xml:lang="ko"><![CDATA[만들 수 있는 보드갯수를 초과하였습니다.<br/>프로버전으로 업그레이드하시면 더 많은 보드를 만드실 수 있습니다.]]></value>
+        <value xml:lang="en"><![CDATA[You've reached the scoreboard limitation <br/> If you Upgrade to PRO You can make more scoreboard]]></value>
+	</item>
+    <item name = "rank">
+		<value xml:lang="ko"><![CDATA[랭킹]]></value>
+        <value xml:lang="en"><![CDATA[rank]]></value>
+	</item>
+    <item name = "name">
+		<value xml:lang="ko"><![CDATA[이름]]></value>
+        <value xml:lang="en"><![CDATA[Name]]></value>
+	</item>
+    <item name = "score">
+		<value xml:lang="ko"><![CDATA[점수]]></value>
+        <value xml:lang="en"><![CDATA[Score]]></value>
+	</item>
+    <item name = "game_name">
+		<value xml:lang="ko"><![CDATA[게임 이름]]></value>
+        <value xml:lang="en"><![CDATA[Game Name]]></value>
+	</item>
+    <item name = "game_token">
+		<value xml:lang="ko"><![CDATA[토큰]]></value>
+        <value xml:lang="en"><![CDATA[Token]]></value>
+	</item>
+    <item name = "reg_date">
+		<value xml:lang="ko"><![CDATA[등록 날짜]]></value>
+        <value xml:lang="en"><![CDATA[Registerd Date]]></value>
+	</item>
+    <item name = "sort_type">
+		<value xml:lang="ko"><![CDATA[정렬 방식]]></value>
+        <value xml:lang="en"><![CDATA[Sort Type]]></value>
+	</item>
+    <item name = "use_hash">
+		<value xml:lang="ko"><![CDATA[해쉬 사용]]></value>
+        <value xml:lang="en"><![CDATA[Use Hash]]></value>
+	</item>
+    <item name = "board_exists">
+		<value xml:lang="ko"><![CDATA[이미 존재하는 게임 타이틀입니다.]]></value>
+        <value xml:lang="en"><![CDATA[Game Title already exists.]]></value>
+	</item>
+    <item name = "need_login">
+		<value xml:lang="ko"><![CDATA[스코어보드 사용을 위해서 로그인하셔야합니다.]]></value>
+        <value xml:lang="en"><![CDATA[You need to login to create scoreboard.]]></value>
+	</item>
+    <item name = "game_new">
+		<value xml:lang="ko"><![CDATA[게임 등록]]></value>
+        <value xml:lang="en"><![CDATA[New Game]]></value>
+	</item>
+	<item name = "no_scoreboard">
+		<value xml:lang="ko"><![CDATA[활성화 되어있는 스코어보드가 없습니다.]]></value>
+        <value xml:lang="en"><![CDATA[No scoreBoard available]]></value>
+	</item>
+	<item name = "no_login">
+		<value xml:lang="ko"><![CDATA[로그인이 되어있지 않습니다..]]></value>
+        <value xml:lang="en"><![CDATA[You need to login.]]></value>
+	</item>
+	<item name = "dashboard">
+		<value xml:lang="ko"><![CDATA[대시 보드]]></value>
+        <value xml:lang="en"><![CDATA[Dash Board]]></value>
+	</item>
+	<item name = "game_modify">
+		<value xml:lang="ko"><![CDATA[게임 수정]]></value>
+        <value xml:lang="en"><![CDATA[Game Modify]]></value>
+	</item>
+	<item name = "game_register">
+		<value xml:lang="ko"><![CDATA[게임 생성]]></value>
+        <value xml:lang="en"><![CDATA[Game Register]]></value>
+	</item>
+	<item name = "sub_insert_title">
+		<value xml:lang="ko"><![CDATA[게임의 타이틀을 입력해주세요.]]></value>
+        <value xml:lang="en"><![CDATA[Please insert the Game Title.]]></value>
+	</item>
+	<item name = "sub_insert_des">
+		<value xml:lang="ko"><![CDATA[게임의 간단한 설명을 입력해주세요(옵션)]]></value>
+        <value xml:lang="en"><![CDATA[Please insert a short description of the game (option)]]></value>
+	</item>
+	<item name = "sub_insert_banner_color">
+		<value xml:lang="ko"><![CDATA[배너색상을 지정합니다.]]></value>
+        <value xml:lang="en"><![CDATA[Specifies the banner color.]]></value>
+	</item>
+	<item name = "sub_banner_default">
+		<value xml:lang="ko"><![CDATA[(기본값 : #297BD9)]]></value>
+        <value xml:lang="en"><![CDATA[(Default : #297BD9)]]></value>
+	</item>
+</lang>

@@ -1,0 +1,34 @@
+<!--#include("_head.html")-->
+<load target="css/gmscore.css" />
+<load target="css/bootstrap.min.css" />
+<div id="content">
+<!--@if($view_board=='Y')-->
+<div id=navi><div style="float:left"><p>{$lang->dashboard}</p></div>
+<div style="float:right"><button type="button" class="btn btn-primary btn-md" 
+        onClick="location.href='gmscore?act=dispGMscorePro'">
+    프로버전</button></div>
+</div>
+<div cond="$XE_VALIDATOR_MESSAGE"><p class="error_message">{$XE_VALIDATOR_MESSAGE}</p></div>
+    <!--@if($board_count>0)-->
+    <div class = "game_list" loop="$board_list =>$key,$val">
+        <div class="list_name">{$val->game_name}</div>
+        <div class="list_token">{$val->game_token}</div>
+        <div class="list_icons">
+            <a href="//www.cookiee.net/score/view/{$val->game_name}">
+				<img src="css/rankIcon.png"/></a>
+            <a href="{getUrl('act','dispGMscoreUpdate','game_token',$val->game_token)}">
+				<img src="css/settingIcon.png"/></a>
+            <a href="{getUrl('act','dispGMscoreDelete','game_token',$val->game_token)}">
+				<img src="css/destroyIcon.png"/></a>
+        </div>
+    </div>
+    <!--@else-->
+    <div class=box_text><center>{$lang->no_scoreboard}</center></div>
+    <!--@end-->
+<div class="centralize"><button type="button" class="btn btn-success btn-lg" 
+        onClick="location.href='gmscore?act=dispGMscoreCreate'">
+    {$lang->game_new}</button></div>
+<!--@else-->
+    <div class=box_text><center><a href="https://www.cookiee.net/index.php?act=dispMemberLoginForm" target="_blank" style="color: red">{$lang->no_login}</a></center></div>
+<!--@end-->
+</div>

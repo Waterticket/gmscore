@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0.2">
+    <title xml:lang="ko">GM 스코어보드 기본 스킨</title>
+    <description xml:lang="ko">GM 스코어보드의 기본 스킨입니다.</description>
+    <version>0.1</version>
+    <date>2015-11-29</date>
+
+    <author email_address="runway3207@hanmail.net" link="http://www.joymaker.org">
+        <name xml:lang="ko">NHN</name>
+    </author>
+</skin>

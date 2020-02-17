@@ -1,0 +1,14 @@
+<query id="getScore" action="select">
+    <tables>
+        <table name="gmscore_board" />
+    </tables>
+    <columns>
+		<column name="usr_srl" alias="usr_srl" />
+        <column name="name" alias="name" />
+        <column name="score" alias="score" />
+		<column name="log_time" alias="log_time" />
+    </columns>
+    <conditions>
+		<condition operation="equal" column="game_token" var="game_token"/>
+    </conditions>
+</query>

@@ -1,0 +1,17 @@
+<!--#include("_head.html")-->
+<load target="css/gmscore.css" />
+<load target="css/bootstrap.min.css" />
+<div cond="$XE_VALIDATOR_MESSAGE">
+		<p class="error_message">{$XE_VALIDATOR_MESSAGE}</p>
+	</div> 
+<div class=box_warning><center>해당 스코어보드를 삭제하시겠습니까?</center><br>
+    <span><center>스코어보드를 삭제 하시면 다시 복구하실 수 없습니다.</center></span><br><br><br>
+<center>
+<form action="./" method="post">
+    <input type="hidden" name="mid" value="gmscore" />
+	<input type="hidden" name="act" value="procGMscoreDeleteBoard" />
+    <input type="hidden" name="game_token" value={$game_token} />
+    <button type="submit" class="btn btn-primary">확인</button>
+<button type="button" class="btn btn-danger" onClick="location.href='gmscore'">취소</button></center>
+</form>
+</div>

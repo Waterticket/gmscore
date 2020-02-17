@@ -1,0 +1,8 @@
+<table name="gmscore_board">
+    <column name="id" type="number" size="100" auto_increment ="auto_increment" primary_key="primary_key" />
+	<column name="usr_srl" type="number" size="100" primary_key="primary_key" />
+	<column name="game_token" type="varchar" size="250" notnull="notnull" />
+	<column name="name" type="varchar" size="20" notnull="notnull" />
+    <column name="score" type="float" notnull="notnull" />
+	<column name="log_time" type="varchar" size="20" notnull="notnull" />
+</table>

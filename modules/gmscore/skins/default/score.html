@@ -1,0 +1,15 @@
+<!--#include("_head.html")-->
+    <!--@if($board_count>0)-->
+    <div class = "game_list" loop="$board_list =>$key,$val">
+        <div class="list_name">{$val->game_name}</div>
+        <div class="list_token">{$val->game_token}</div>
+        <div class="list_icons">
+            <a href="//www.cookiee.net/score/view.php?game_name={$val->game_name}">
+				<img src="css/rankIcon.png"/></a>
+            <a href="{getUrl('act','dispGMscoreUpdate','game_token',$val->game_token)}">
+				<img src="css/settingIcon.png"/></a>
+            <a href="{getUrl('act','dispGMscoreDelete','game_token',$val->game_token)}">
+				<img src="css/destroyIcon.png"/></a>
+        </div>
+    </div>
+    <!--@end-->

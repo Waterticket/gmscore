@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ruleset version="1.0">
+	<fields>
+        <field name="game_title" required="true" maxlength="1:90"/>
+    </fields>
+</ruleset>

@@ -1,0 +1,17 @@
+<include target="_head.html" />
+
+<h2>{$game_title}</h2>
+<p>등록된 랭킹 수 : {$score_board->count}</p>
+<table>
+    <caption>total: {number_format($score_board->count)}</caption>
+    <tr>
+        <th>{$lang->rank}</th>
+        <th>{$lang->name}</th>
+        <th>{$lang->score}</th>
+    </tr>
+    <tr loop="score_board => $no, $score">
+        <td>{$no}</td>
+        <td>{$score->name}</td>
+        <td>{$score->score}</td>
+    </tr>
+</table>

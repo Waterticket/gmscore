@@ -1,0 +1,13 @@
+<query id="getUserBoard" action="select">
+    <tables>
+        <table name="gmscore" />
+    </tables>
+    <columns>
+        <column name="game_name" />
+        <column name="game_token"/>
+        <column name="regdate" />
+    </columns>
+    <conditions>
+		<condition operation="equal" column="member_srl" var="member_srl"/>
+    </conditions>
+</query>

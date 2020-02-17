@@ -1,0 +1,45 @@
+<!--#include("_head.html")-->
+<load target="css/gmscore.css" />
+<load target="css/bootstrap.min.css" />
+<script src="js/jscolor.js"></script>
+<div id=navi><div style="float:left"><p>{$lang->game_register}</p></div></div>
+</div>
+<form class="board_editor" action="./" method="post" ruleset="insert_board">
+    <input type="hidden" name="module" value="gmscore" />
+	<input type="hidden" name="act" value="procGMscoreInsertBoard" />
+    <input type="hidden" name="member_srl" value={$member_srl} />
+    <div class="create_form">
+        <div cond="$XE_VALIDATOR_MESSAGE">
+		<p class="error_message">{$XE_VALIDATOR_MESSAGE}</p>
+	</div> 
+		<div id="con_margin">
+        <div>
+            <label for="game_title">{$lang->game_title} <span class="text-danger">*</span></label>
+            <input class=form-control type="text" name="game_title">
+            <span class="help-block">게임의 타이틀을 입력해주세요.</span>
+        </div>
+        <br>
+        <div>
+            <label for="game_des">{$lang->game_des}</label>
+            <textarea name="game_des" class="form-control" rows="2"></textarea>
+            <span class="help-block">게임의 간단한 설명을 입력해주세요(옵션) 1~2줄 추천</span>
+        </div>
+        <br>
+        <div>
+            <label for="sort_type">{$lang->sort_type} <span class="text-danger">*</span></label>  
+            <select class="form-control" name="sort_type">
+                <option value="desc">{$lang->descend}</option>
+                <option value="asc">{$lang->ascend}</option>
+            </select>
+            <span class="help-block">정렬방식을 설정합니다. </span>
+        </div>
+        <br>
+        <div>
+            <label for="back_col">{$lang->background_color} <span class="text-danger">*</span></label>
+            <input class="form-control jscolor {closable:true,closeText:'Select Color!'}" type="text" name="back_col" value="297BD9">
+            <span class="help-block">배너색상을 지정합니다. <span class="color_example">(기본값 : #297BD9)</span></span>
+        </div>
+		</div>
+        <div class="centralize"><input class="btn btn-success btn-lg" type="submit" value="{$lang->cmd_registration}" /></div>
+    </div>
+</form>

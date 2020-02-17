@@ -1,0 +1,10 @@
+<query id="insertPro" action="insert">
+	<tables>
+		<table name="gmscore_pro" />
+	</tables>
+	<columns>
+        <column name="member_srl" var="member_srl" notnull="notnull" />
+		<column name="regdate" var="regdate" notnull="notnull" />
+        <column name="enddate" var="enddate" notnull="notnull" />
+	</columns>
+</query>

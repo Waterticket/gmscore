@@ -1,0 +1,15 @@
+<query id="updateBoard" action="update">
+	<tables>
+		<table name="gmscore" />
+	</tables>
+	<columns>
+		<column name="regdate" var="regdate" notnull="notnull" />
+        <column name="game_des" var="game_des" />
+        <column name="sort_type" var="sort_type" />
+		<column name="game_secret" var="game_secret" />
+        <column name="background_color" var="background_color" />
+	</columns>
+	<conditions>
+		<condition operation="equal" column="game_token" var="game_token"  />
+	</conditions>
+</query>

@@ -1,0 +1,16 @@
+<query id="updateScore" action="update">
+	<tables>
+		<table name="gmscore_board" />
+	</tables>
+	<columns>
+		<column name="usr_srl" var="usr_srl" />
+        <column name="game_token" var="game_token" />
+		<column name="name" var="name" />
+        <column name="score" var="score" />
+		<column name="log_time" var="log_time" />
+	</columns>
+	<conditions>
+		<condition operation="equal" column="game_token" var="game_token" />
+		<condition operation="equal" column="usr_srl" var="usr_srl" pipe="and" />
+	</conditions>
+</query>

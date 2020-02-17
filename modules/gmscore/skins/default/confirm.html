@@ -1,0 +1,18 @@
+<!--#include("_head.html")-->
+<load target="css/gmscore.css" />
+<div cond="$XE_VALIDATOR_MESSAGE">
+		<p class="error_message">{$XE_VALIDATOR_MESSAGE}</p>
+	</div> 
+<div class=box_warning><center>프로버전으로 업그레이드 하시겠습니까?</center><br>
+    <span><center><p style="text-decoration:line-through">5000</p> <span style="color:red;">이벤트 한정 1000</span> 포인트가 차감됩니다. 현재포인트 : {$point}</center></span><br><br><br>
+<center>
+<form action="./" method="post">
+    <input type="hidden" name="mid" value="gmscore" />
+	<input type="hidden" name="act" value="procGMscoreInsertPro" />
+    <input type="hidden" name="point" value={$point} />
+    <input type="hidden" name="hash" value={$hash} />
+    <input type="hidden" name="member_srl" value={$member_srl} />
+    <button type="submit" class="btn btn-primary">확인</button>
+<button type="button" class="btn btn-danger" onClick="location.href='gmscore?act=dispGMscorePro'">취소</button></center>
+</form>
+</div>

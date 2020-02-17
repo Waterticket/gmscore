@@ -1,0 +1,15 @@
+<query id="insertBoard" action="insert">
+	<tables>
+		<table name="gmscore" />
+	</tables>
+	<columns>
+		<column name="regdate" var="regdate" notnull="notnull" />
+		<column name="member_srl" var="member_srl" />
+        <column name="game_name" var="game_name" default="none" />
+        <column name="game_des" var="game_des" default="게임 설명" />
+		<column name="game_token" var="game_token" default="none" />
+		<column name="game_secret" var="game_secret" default="none" />
+        <column name="sort_type" var="sort_type" default="desc" />
+		<column name="background_color" var="background_color" />
+	</columns>
+</query>
