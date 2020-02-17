@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* xe에서는 공용자(*)를 사용하지 않음 
+-------------------------------------*/
+  * {padding:0;	margin:0;} 
+
+	
+/* html, body, div {margin:0; padding:0;}  */
+
+
+a img {border: none; vertical-align:middle;} 
+a { selector-dummy : expression(this.hideFocus=true); }
+a:active, a:focus { -moz-outline:none; outline:none; }
+a:link{text-decoration:none;}
+
+.clear {clear: both;}
+
+.bottom_clear:after{
+	position:relative;
+	content:""; 
+	display:block; 
+	clear:both;
+	*zoom:1 
+	}
+
+.top_float{
+	float:left;
+	position:relative;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body 설정 
+-------------------------------------------------------
+body {
+	font-family:굴림,돋움,Tahoma, Geneva, sans-serif;
+	}
+*/
+
+/* 내용 전체를 감싸는 Div는 가로를 100%로 설정 
+----------------------------------------------------------------------
+#fullbody {width:100%;}
+.site_width {width:980px; margin:0 auto;}
+*/
+
+/* 최상단 헤더 
+----------------------------------------------------------------------
+#top_header{position:relative; height:25px; background:#DADDD1 url(../images/menubar_up.png) repeat-x; border-bottom:1px solid gray;}  
+#top_info{margin:5px 0px; list-style:none; float:right; overflow:hidden;}
+	#top_info li{padding:0px 7px; display:inline;}
+	#top_info li a:link,
+	#top_info li a:visited {font-weight:bold; color:black; text-decoration:none;}
+	#top_info li a:hover{font-weight:bold; color:white; text-decoration:none;}
+	#top_info li a:active{font-weight:bold; color:white; text-decoration:none;}
+	
+*/
+
+
+/* 헤더 
+-------------------------------------------------------------------------------------------------------
+#header{position:relative; height:170px; background:;}
+	#header h1 {position:absolute; left:370px; top:20px; margin:0 auto;}
+	#header h1 a {text-decoration:none; color:black; font-size:20px; font-weight:bold;}
+*/
+	
+/* 메뉴바 
+--------------------------------------------------------------------------------------------------------
+#menubar {position:relative; float:bottom; bottom:0px; width:100%; height:35px; background:#6B8883 url(../images/menubar_up.png) repeat-x; z-index:3; border-bottom:#3e5954 1px solid; border-top:#fff 1px solid;}  
+	.gnb ul{float:right; list-style:none; margin:0; padding:0; zoom:1;} 
+	.gnb ul:after{content:""; display:block; clear:both;}
+	.gnb ul ul{display:none; position:absolute; left:0; top:37px; padding:5px 0; background:#F3F3F3; border:2px solid #6B8883; border-top:0;} 
+	.gnb li{float:left; list-style:none; padding-left:50px; position:relative; white-space:nowrap;} 
+	.gnb li.first{padding:0px; background:none;} 
+	.gnb li li{float:none; background:none; padding:0px; left:0px;} 
+	.gnb li a{float:left; padding:13px 15px 5px 15px; height:15px; color:#e8e8e8; font-weight:bold; white-space:nowrap; text-decoration:none;} 
+	.gnb li a:hover,
+	.gnb li a:active,
+	.gnb li a:focus{background-color:white; opacity:0.5; color:black; filter: alpha(opacity:'50');}
+	.gnb li.active a{background-color:white; opacity:0.5; color:black; filter: alpha(opacity:'50'); }  
+	.gnb li li a{float:none; color:gray; display:block; padding:8px 15px; height:auto; font-weight:bold; line-height:20px;}
+	.gnb li li a:hover,
+	.gnb li li a:active,
+	.gnb li li a:focus{background-color:#6B8883; color:white;}
+	.gnb li li.active a{color:red;}
+	*/
+
+
+	
+/* 컨텐츠
+------------------------------------------------------------------------------------------------
+#contents {position:relative; background:#fff; border:solid 1px gray; padding:20px; margin:10px 0px; overflow:hidden;}
+#contents:after {content:""; display:block; clear:both;}
+*/
+
+
+
+/* 최하단
+------------------------------------------------------------------------------------------------
+#footer{position:relative; height:50px; border-top:2px gray solid; border-bottom:; border-left:; border-right:; }
+#footer_bar{position:absolute; top:20px; height:100%; width:100%; background:; clear:both; font-weight:bold; font-size:13px; text-align:center;}
+*/
+
+
+
+
+

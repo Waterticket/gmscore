@@ -1,0 +1,124 @@
+#general{max-width:1000px; margin: 0 auto;font-family: "Nanum Gothic";}
+#head{
+    width:100%; 
+    height:90px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#head a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#head .description{
+    font-size:20px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#head_title{
+    width:100%; 
+    height:20px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#head_title a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#head_title .description{
+    font-size:20px;
+    padding-top: 5px;
+}
+#content{
+    margin-bottom: 20px;
+}
+#navi{
+    height:40px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+#navi .description{
+    font-weight: normal;
+    margin-top:10px;
+    padding-left: 10px;
+    font-size:16px;
+    color:dimgray;
+}
+#con_margin{
+	width:1000px; margin: 0 auto;font-family: "Nanum Gothic";
+}
+.centralize{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.game_list{
+    display: table;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #f8f8f8; 
+    padding-left: 20px;
+    font-weight: bold;
+    width: 100%; 
+    height:60px;
+}
+.game_list .list_st,
+.game_list .list_name,
+.game_list .list_score{
+    display: table-cell;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.game_list .list_st{width:10%; text-align:left;}
+.game_list .list_name{width:70%; text-align:center;}
+.game_list .list_score{width:20%; text-align:center;}
+.rank_icon a.particular-link {display: block;
+                   background: url(settingIcon.png) top left no-repeat; 
+                   text-align: center;
+                   line-height: 50px; }
+.box_text {min-height: 300px;line-height: 300px;font-weight: bold;font-size: 20px;color:gray;}
+.box_warning {min-height: 300px;margin: 100px;font-weight: bold;font-size: 20px;color:gray;}
+.box_warning span{font-size: 15px;}
+.board_editor {
+    margin-top: 10px;
+}
+.color_example{
+    color: #297BD9;
+}
+.error_message{
+    background-color: #F2385A;
+    vertical-align: middle;
+    font-weight: bold;
+    color:white;
+    padding: 10px;
+    height: 32px;
+}
+
+.pro_list{
+    display: table;
+    margin: 20px auto;
+    padding-left: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%; 
+    height:54px;
+}
+.pro_list .list_caption,
+.pro_list .list_free,
+.pro_list .list_pro{
+    margin-top:20px;
+    display: table-cell;
+    border-radius: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.pro_list .list_caption{text-align: left; width:50%;}
+.pro_list .list_free{width:24%; background-color: #f8f8f8;}
+.pro_list .list_blank{width:2%}
+.pro_list .list_pro{width:24%; background-color: #f8f8f8;}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    <grants>
+        <grant name="create_scoreboard" default="guest">
+            <title xml:lang="ko">보드 작성</title>
+        </grant>
+        <grant name="delete_scoreboard" default="manager">
+            <title xml:lang="ko">보드 삭제</title>
+        </grant>
+    </grants>
+    <permissions>
+    </permissions>
+    <actions>
+        <action name="dispGMscoreContent" type="view" index="true" />
+        <action name="dispGMscoreCreate" type="view" />
+        <action name="dispGMscoreDelete" type="view" />
+        <action name="dispGMscoreUpdate" type="view" />
+        <action name="dispGMscoreView" type="view" />
+        <action name="dispGMscorePro" type="view" />
+        <action name="dispGMscoreProConfirm" type="view" />
+        
+        <action name="procGMscoreInsertBoard" type="controller" standalone="true" />
+        <action name="procGMscoreUpdateBoard" type="controller" standalone="true" />
+        <action name="procGMscoreDeleteBoard" type="controller" standalone="true" />
+        <action name="procGMscoreInsertPro" type="controller" standalone="true" />
+        
+        <action name="dispGMscoreAdminContent" type="view" standalone="true" admin_index="true" />
+        <action name="dispGMscoreAdminInsertBoard" type="view" standalone="true" setup_index="true" />
+        <action name="dispGMscoreAdminGivePrevilage" type="view" standalone="true" />
+        <action name="procGMscoreAdminInsertBoard" type="controller" standalone="true" ruleset="insert_board" />
+        <action name="dispGMscoreAdminDeleteBoard" type="view" standalone="true" />
+        <action name="procGMscoreAdminDeleteBoard" type="controller" standalone="true" ruleset="delete_board" />
+    </actions>
+</module>

@@ -1,0 +1,7 @@
+<filter name="create_upgletylehub" module="upgletylehub" act="procUpgletylehubAdminCreate" >
+    <form>
+        <node target="upgletylehub_id" required="true" maxlength="40" filter="alpha_number" />
+    </form>
+    <parameter />
+    <response />
+</filter>
